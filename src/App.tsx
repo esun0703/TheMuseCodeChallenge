@@ -12,8 +12,8 @@ function App() {
       <section className="App">
         <div className='container'>
           <SearchBar/>
-          <SearchFilterDisplay/>
-          {/* <SearchResultsDisplay/> */}
+          {/* <SearchFilterDisplay/> */}
+          <SearchResultsDisplay/>
         </div>
         
       </section>
