@@ -5,6 +5,7 @@ import SearchFilterDisplay from './components/SearchFilterDisplay';
 import SearchResultsDisplay from './components/SearchResultsDisplay';
 import { JobSearchProvider } from './contexts/JobContext';
 
+// @TODO removed Search Results display because it was incompleted
 function App() {
   return (
     <JobSearchProvider>
@@ -12,7 +13,7 @@ function App() {
         <div className='container'>
           <SearchBar/>
           <SearchFilterDisplay/>
-          <SearchResultsDisplay/>
+          {/* <SearchResultsDisplay/> */}
         </div>
         
       </section>
