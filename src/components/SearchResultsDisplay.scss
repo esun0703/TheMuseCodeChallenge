@@ -1,0 +1,44 @@
+.search-results {
+    padding: 0;
+    width:100%;
+
+    li {
+        list-style: none;
+        height: 80px;
+        display: flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        background-color: white;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        box-shadow: '0 0 15px rgba(0, 0, 0, 0.5)';
+        flex-direction: column;
+        justify-content: space-around;
+
+        .job-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #343b51;
+            line-height: 18px;
+            margin: 0;
+        }
+
+        .label-text {
+            margin: 0;
+            font-size: 12px;
+            font-style: italic;
+        }
+
+        &:hover {
+            cursor: pointer;
+            .job-title {
+                font-size: 16px;
+                font-weight: 700;
+                color: #566D96;
+            }
+        }
+    }
+
+    
+}
+
